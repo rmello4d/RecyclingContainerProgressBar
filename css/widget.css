@@ -1,0 +1,72 @@
+.waf-widget.waf-recyclingcontainerprogressbar {
+
+}
+
+.sl-recycle {
+    
+    padding: 20px !important;
+    background-color: #ADC32D !important;
+    width:auto;
+    min-height:340px;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+ 
+}
+
+
+.sl-recycle .progress {
+    background: url("../images/bloc-trash-vide.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 294px;
+    margin: 0;
+    width: 300px;
+}
+
+.sl-recycle .progress .progress-bar {
+    background: url("../images/bloc-trash-pleine.png") no-repeat scroll 0 bottom rgba(0, 0, 0, 0);
+}
+
+.progress {
+    box-shadow: none;
+    margin: 0 auto;    
+    position: relative;
+}
+
+.progress .progress-bar {
+    height: 100%;
+    position: absolute;
+    width: 300px;
+}
+
+.progress.vertical .progress-bar {
+    height: 0;
+    transition: height 0.6s ease 0s;
+    width: 100%;
+}
+
+.progress.vertical.bottom .progress-bar {
+    bottom: 0;
+    position: absolute;
+}
+
+
+
+.progress .progress-bar .sr-only {
+    background: url("../images/pourcentage-fleche.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    font-family: 'bebasregular';
+    font-size: 20px;
+    height: 39px;
+    line-height: 37px;
+    margin-top: -18px;
+    padding-left: 17px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 83px;
+    z-index:100;
+}
+
+
+
